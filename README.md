@@ -32,10 +32,12 @@ Run the below commands one-by-one:
 `library(gridExtra)`
 
 ## Importing the prepared PTC dataset
-Set working directory to location of the downloaded so.rds `setwd(/path/to/directory/)`
+1. Set working directory to location of the downloaded so.rds `setwd(/path/to/directory/)`
 
-Save read the RDS file as "so" `so <-readRDS('so.rds')`
+2. Save read the RDS file as "so" `so <-readRDS('so.rds')`
 
-Visualize the data `sleuth_live(so)`
+3. Visualize the data `sleuth_live(so)`
 
 ## User Interface
+Sleuth Live Example:
+![alt text](sleuth_live_example.png)
